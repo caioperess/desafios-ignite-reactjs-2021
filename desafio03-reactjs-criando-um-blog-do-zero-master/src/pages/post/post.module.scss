@@ -1,0 +1,75 @@
+.banner {
+  height: 400px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.content {
+  padding: 4rem 0;
+
+  .header {
+    margin-bottom: 4rem;
+
+    strong {
+      display: block;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 3.625rem;
+      color: var(--heading);
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        color: var(--info);
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+      }
+    }
+  }
+
+  h2 {
+    color: var(--heading);
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 3rem 0;
+  }
+
+  p,
+  span,
+  a,
+  ul {
+    font-weight: 400;
+    font-size: 1.125rem;
+  }
+
+  p {
+    color: var(--body);
+    margin-top: 1.8rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--highlight);
+  }
+
+  ul {
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
